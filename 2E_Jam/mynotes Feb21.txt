@@ -1,0 +1,100 @@
+underorder list <ul>
+	-list without numbering
+syntax
+	<ul>
+		<li> Hello </li>
+		<li> World </li>
+		<li> BSIT </li>
+	</ul>
+			•Hello
+			•World
+			•BSIT
+
+ordered list <ol>
+	-list with numbering
+			1.Hello
+			2.World
+			3.BSIT
+	<ol>
+		<li> Hello </li>
+		<li> World </li>
+		<li> BSIT </li>
+	</ol>
+
+description list <dl>
+Header
+	Description
+
+	<dl>
+		<dt> Coffee</dt>
+		<dd> - black hot drink</dd>
+		<dt>Milk</dt>
+		<dd> - white cold drink </dd>
+	</dl>
+			Coffee
+				- black hot drink
+			Milk
+				- white cold drink
+<li? List item Element
+
+	<li> Hello </li>
+	<li> World </li>
+	<li> BSIT </li>
+
+
+Sub unordered List
+Sub ordered List
+sub Description list
+
+example:
+
+		<ul>
+			<li> Hello </li>
+				<ul>
+					<li> Hello </li>
+					<li> World </li>
+					<li> BSIT </li>
+				</ul>
+			<li> World </li>
+				<ul>
+					<li> Hello </li>
+					<li> World </li>
+					<li> BSIT </li>
+				</ul>
+			<li> BSIT </li>
+				<ul>
+					<li> Hello </li>
+					<li> World </li>
+					<li> BSIT </li>
+				</ul>
+				
+		</ul>
+
+<table> Table element
+	indicates a Table Cell Content
+		<table>
+			<tr>
+				<th> DIT</th>
+				<th> Education</th>
+			</tr>
+			<tr>
+				<td> BSIT </td>
+				<td> TLE</td>
+			</tr>
+		</table>
+
+<td> table head
+<th> table head
+<tr> table row
+
+Design 
+<head>
+	<style>
+	 td,th,tr 
+	 {
+	 	border-width: 1px;
+	 	border-color: black;
+	 	border-style: solid;
+	 } 
+	</style>
+</head>
